@@ -2,21 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/api/basic/</loc>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/map/basic/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/vpp/basic/</loc>
   </url><url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/</loc>
-  </url><url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/api/basic2/</loc>
-  </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/map/basic2/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/vpp/basic2/</loc>
-  </url><url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/api/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/map/</loc>
   </url><url>
