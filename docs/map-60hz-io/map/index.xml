@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>지도 on 60 Hertz Docs</title>
+    <title>1. 지도 on 60 Hertz Docs</title>
     <link>http://docs.60hz.io/docs/map-60hz-io/map/</link>
-    <description>Recent content in 지도 on 60 Hertz Docs</description>
+    <description>Recent content in 1. 지도 on 60 Hertz Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://docs.60hz.io/docs/map-60hz-io/map/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>기본기능 1</title>
-      <link>http://docs.60hz.io/docs/map-60hz-io/map/basic/</link>
+      <title>a. 세계 기상정보 확인</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/map/weather/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.60hz.io/docs/map-60hz-io/map/basic/</guid>
-      <description>Caput vino delphine in tamen vias #  Cognita laeva illo fracta #  Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter, per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum.
- Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit  Natus quaerere #  Pectora et sine mulcere, coniuge dum tincta incurvae.</description>
+      <guid>http://docs.60hz.io/docs/map-60hz-io/map/weather/</guid>
+      <description>세계 기상정보 확인 #  개요 #  세계 기상정보를 햇빛지도에서 확인할 수 있습니다. 세계 기상정보는 미국 해양대기청에서 제공하는 Global Forecast System 데이터를 사용하고 있으며, 햇빛지도에서는 오늘부터 내일, 내일 모레까지의 데이터를 확인할 수 있습니다.
+풍속, 풍향 #  왼쪽의 바람 버튼을 누르게 되면 지도에 전 세계의 풍속(m/s)과 풍향 정보가 지도에 표시됩니다.
+일사량 #  기온 #  구름 #  </description>
     </item>
     
     <item>
-      <title>기본기능2</title>
-      <link>http://docs.60hz.io/docs/map-60hz-io/map/basic2/</link>
+      <title>전국 발전소 탐색</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/map/plant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://docs.60hz.io/docs/map-60hz-io/map/basic2/</guid>
-      <description>At me ipso nepotibus nunc celebratior genus #  Tanto oblite #  Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
-Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
+      <guid>http://docs.60hz.io/docs/map-60hz-io/map/plant/</guid>
+      <description></description>
     </item>
     
   </channel>
