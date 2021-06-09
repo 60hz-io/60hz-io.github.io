@@ -10,7 +10,7 @@ API 명세 #    URL
   Method:
 GET
   URL Params
-   parameter type required description     token str O token   type str X 응답값의 형태(&lsquo;xml&rsquo; or &lsquo;json&rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜   plant int X 발전소 id      참고">
+   변수명 타입 필수 설명     token str O token   type str X 응답값의 형태(&lsquo;xml&rsquo; or &lsquo;json&rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜   plant int X 발전소 id      Success Response:">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="a. 예측발전량" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
@@ -309,10 +309,10 @@ https://github.com/alex-shpak/hugo-book
 <table>
 <thead>
 <tr>
-<th>parameter</th>
-<th>type</th>
-<th>required</th>
-<th>description</th>
+<th>변수명</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
 </tr>
 </thead>
 <tbody>
@@ -344,6 +344,96 @@ https://github.com/alex-shpak/hugo-book
 </table>
 </li>
 <li>
+<p><strong>Success Response:</strong></p>
+<ul>
+<li>
+<p><strong>Code:</strong> 200 <!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>출력값</p>
+<table>
+<thead>
+<tr>
+<th>출력명</th>
+<th>타입</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>str</td>
+<td>집합발전소 이름 or 발전소 이름</td>
+</tr>
+<tr>
+<td>unit</td>
+<td>str</td>
+<td>단위</td>
+</tr>
+<tr>
+<td>predict</td>
+<td>array</td>
+<td>예측발전량 어레이</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>str</td>
+<td>시간</td>
+</tr>
+<tr>
+<td>generation</td>
+<td>float</td>
+<td>예측발전량</td>
+</tr>
+<tr>
+<td>plants</td>
+<td>array</td>
+<td>발전소 어레이</td>
+</tr>
+<tr>
+<td>id</td>
+<td>int</td>
+<td>발전소 ID</td>
+</tr>
+<tr>
+<td>plant_name</td>
+<td>str</td>
+<td>발전소 이름</td>
+</tr>
+<tr>
+<td>nwp</td>
+<td>array</td>
+<td>기상정보 어레이</td>
+</tr>
+<tr>
+<td>temp_air</td>
+<td>dict</td>
+<td>온도</td>
+</tr>
+<tr>
+<td>wind_speed</td>
+<td>dict</td>
+<td>풍속</td>
+</tr>
+<tr>
+<td>wind_direction</td>
+<td>dict</td>
+<td>풍향</td>
+</tr>
+<tr>
+<td>ghi</td>
+<td>dict</td>
+<td>일사량</td>
+</tr>
+<tr>
+<td>cloud_index</td>
+<td>dict</td>
+<td>운량</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
 <p><strong>참고</strong></p>
 <ol>
 <li>발전소별로 예측발전량 값을 호출할 수 있습니다. 이때 시간별 기상정보도 확인할 수 있습니다. (아래 표 참고)</li>
@@ -369,12 +459,7 @@ https://github.com/alex-shpak/hugo-book
 <ol start="2">
 <li>호출가능한 날짜는 집합발전이 생성된 이후 날짜만 가능합니다.</li>
 </ol>
-</li>
-<li>
-<p><strong>Success Response:</strong></p>
-<ul>
-<li><strong>Code:</strong> 200 <!-- raw HTML omitted --></li>
-<li><strong>Content:</strong>
+<p><strong>Content:</strong></p>
 <pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
 &lt;root&gt;
     &lt;name&gt;{집합발전소 이름}&lt;/name&gt;
