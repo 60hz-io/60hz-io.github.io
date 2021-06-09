@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3. API on 60 Hertz Docs</title>
+    <title>2. API on 60 Hertz Docs</title>
     <link>http://docs.60hz.io/docs/map-60hz-io/api/</link>
-    <description>Recent content in 3. API on 60 Hertz Docs</description>
+    <description>Recent content in 2. API on 60 Hertz Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="http://docs.60hz.io/docs/map-60hz-io/api/index.xml" rel="self" type="application/rss+xml" />
   </channel>

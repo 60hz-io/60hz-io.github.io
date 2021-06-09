@@ -16,8 +16,6 @@
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/vpp/alarm/</loc>
   </url><url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/vpp/xml/</loc>
-  </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/map/plant/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/map/</loc>
@@ -25,6 +23,12 @@
     <loc>http://docs.60hz.io/docs/map-60hz-io/vpp/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/api/</loc>
+  </url><url>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/</loc>
+  </url><url>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/token/</loc>
+  </url><url>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/xml/</loc>
   </url><url>
     <loc>http://docs.60hz.io/categories/</loc>
   </url><url>

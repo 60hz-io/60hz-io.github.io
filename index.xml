@@ -12,9 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/map/weather/</guid>
-      <description>세계 기상정보 확인 #  개요 #  세계 기상정보를 햇빛지도에서 확인할 수 있습니다. 세계 기상정보는 미국 해양대기청에서 제공하는 Global Forecast System 데이터를 사용하고 있으며, 햇빛지도에서는 오늘부터 내일, 내일 모레까지의 데이터를 확인할 수 있습니다.
-풍속, 풍향 #  왼쪽의 바람 버튼을 누르게 되면 지도에 전 세계의 풍속(m/s)과 풍향 정보가 지도에 표시됩니다.
-일사량 #  기온 #  구름 #  </description>
+      <description>세계 기상정보 확인 개요 세계 기상정보를 햇빛지도에서 확인할 수 있습니다. 세계 기상정보는 미국 해양대기청에서 제공하는 Global Forecast System 데이터를 사용하고 있으며, 햇빛지도에서는 오늘부터 내일, 내일 모레까지의 데이터를 확인할 수 있습니다.
+풍속, 풍향 왼쪽의 바람 버튼을 누르게 되면 지도에 전 세계의 풍속(m/s)과 풍향 정보가 지도에 표시됩니다.
+일사량 기온 구름 </description>
     </item>
     
     <item>
@@ -23,10 +23,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/add_vpp/</guid>
-      <description>집합 추가 #   기본 구성 #  집합을 추가하기 위해 집합구성 메뉴를 누르면 위와 같은 화면이 나옵니다.
+      <description>집합 추가  기본 구성 집합을 추가하기 위해 집합구성 메뉴를 누르면 위와 같은 화면이 나옵니다.
 처음으로 집합구성을 사용하는 사용자는 기본적으로 하나의 집합이 구성되어 있습니다.
- 하위 집합 추가 #  하위 집합을 추가하기 위해 &amp;ldquo;추가&amp;rdquo; 버튼을 누릅니다. 추가 버튼을 누른 횟수 만큼 하위 집합이 추가됩니다.
- 하위 집합 삭제 #  하위 집합을 삭제하기 위해 &amp;ldquo;삭제&amp;rdquo; 버튼을 누릅니다. 그러면 &amp;ldquo;집합발전소 집합을 삭제하시겠습니까?&amp;rdquo; 라는 알람창이 뜨게 되고, 확인을 누르면 하위 집합이 삭제가 됩니다.</description>
+ 하위 집합 추가 하위 집합을 추가하기 위해 &amp;ldquo;추가&amp;rdquo; 버튼을 누릅니다. 추가 버튼을 누른 횟수 만큼 하위 집합이 추가됩니다.
+ 하위 집합 삭제 하위 집합을 삭제하기 위해 &amp;ldquo;삭제&amp;rdquo; 버튼을 누릅니다. 그러면 &amp;ldquo;집합발전소 집합을 삭제하시겠습니까?&amp;rdquo; 라는 알람창이 뜨게 되고, 확인을 누르면 하위 집합이 삭제가 됩니다.</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/rename_vpp/</guid>
-      <description>집합 이름 변경 #   집합 이름을 변경하기 위해 &amp;ldquo;집합1&amp;quot;이라는 텍스트를 클릭합니다. 그러면 이름을 수정할 수 있도록, 커서가 표시됩니다.
+      <description>집합 이름 변경  집합 이름을 변경하기 위해 &amp;ldquo;집합1&amp;quot;이라는 텍스트를 클릭합니다. 그러면 이름을 수정할 수 있도록, 커서가 표시됩니다.
 바꾸고자 하는 이름으로 수정한 뒤, 다른 곳을 클릭하였을 때 자동적으로 이름이 수정 완료됩니다.
  </description>
     </item>
@@ -46,11 +46,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/add_plant/</guid>
-      <description>발전소 신규생성 #   집합자원에 발전소 구성 시 신규로 발전소를 등록 및 추가를 하고싶을 때는 발전소를 신규생성을 할 수 있습니다.
- 발전소 신규 생성 메뉴 열기 #  하위 집합의 추가 버튼을 클릭합니다.
+      <description>발전소 신규생성  집합자원에 발전소 구성 시 신규로 발전소를 등록 및 추가를 하고싶을 때는 발전소를 신규생성을 할 수 있습니다.
+ 발전소 신규 생성 메뉴 열기 하위 집합의 추가 버튼을 클릭합니다.
 좌측하단의 신규생성 버튼을 클릭합니다.
 그러면 발전소 신규생성창이 열리게 됩니다.
- 발전소 신규 생성하기 #  등록할 발전소의 종류에 따라 태양광, 풍력을 클릭합니다. 발전소의 이름, 주소, 용량(kW) 등을 기입합니다. 방위각은 정북일 경우 0도, 정남일 경우 180도 입니다. 정보를 모두 기입하였으면 저장을 클릭합니다.</description>
+ 발전소 신규 생성하기 등록할 발전소의 종류에 따라 태양광, 풍력을 클릭합니다. 발전소의 이름, 주소, 용량(kW) 등을 기입합니다. 방위각은 정북일 경우 0도, 정남일 경우 180도 입니다. 정보를 모두 기입하였으면 저장을 클릭합니다.
+ </description>
     </item>
     
     <item>
@@ -59,12 +60,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/add_plant_to_vpp/</guid>
-      <description>집합에 발전소 추가 #   발전소 검색 #  하위 집합 옆의 추가 버튼을 클릭합니다.
+      <description>집합에 발전소 추가  발전소 검색 하위 집합 옆의 추가 버튼을 클릭합니다.
 발전소 검색창에서, 검색하고자 하는 발전소의 이름 혹은 발전소 이름의 포함된 단어를 입력하고 검색을 합니다.
 그러면 위와 같이 발전소 이름에 단어가 포함된 발전소 목록이 나옵니다. 검색 결과는 최대 100건까지만 조회됩니다.
 사용자가 신규생성한 발전소도 검색을 할 수 있습니다. 신규 생성한 발전소의 이름을 기입하고 검색합니다.
 그러면 위와 같이 신규생성한 발전소가 검색 목록에 조회됩니다.
- 집합에 발전소 추가 #  발전소 검색 후, 집합에 추가하고자 하는 발전소의 체크박스를 클릭한 뒤 추가 버튼을 클릭합니다.</description>
+ 집합에 발전소 추가 발전소 검색 후, 집합에 추가하고자 하는 발전소의 체크박스를 클릭한 뒤 추가 버튼을 클릭합니다.</description>
     </item>
     
     <item>
@@ -73,20 +74,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/alarm/</guid>
-      <description>알림 #   집합발전소의 발전량 예측값을 이메일로 받아볼 수 있습니다.
- 이메일 설정 #  집합의 우측에 있는 알림 버튼을 클릭합니다.
+      <description>알림  집합발전소의 발전량 예측값을 이메일로 받아볼 수 있습니다.
+ 이메일 설정 집합의 우측에 있는 알림 버튼을 클릭합니다.
 그러면 위와 같은 창이 나타나게 되고, 이메일 수신 설정 사용 체크박스를 클릭합니다.
 발송시간과 이메일 주소를 기입합니다. 발송시간은 한국 표준시(KST) 기준입니다.
  </description>
-    </item>
-    
-    <item>
-      <title>f. XML</title>
-      <link>http://docs.60hz.io/docs/map-60hz-io/vpp/xml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://docs.60hz.io/docs/map-60hz-io/vpp/xml/</guid>
-      <description>XML #  var runtimeDiskCompiler = home - array_ad_software; if (internic &amp;gt; disk) { emoticonLockCron += 37 + bps - 4; wan_ansi_honeypot.cardGigaflops = artificialStorageCgi; simplex -= downloadAccess; } var volumeHardeningAndroid = pixel + tftp + onProcessorUnmount; sector(memory(firewire + interlaced, wired)); </description>
     </item>
     
     <item>
@@ -95,6 +87,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/map/plant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Token 생성</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/api/predict/token/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/token/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XML</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/api/predict/xml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/xml/</guid>
       <description></description>
     </item>
     
