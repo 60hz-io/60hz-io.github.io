@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="집합발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
+URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+API 명세 #    URL
+/vpp/share
+  Method:
+GET
+  URL Params
+   변수명 타입 필수 설명     token str O token   type str X 응답값의 형태(&lsquo;xml&rsquo; or &lsquo;json&rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜      Success Response:">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="a. 집합발전소 발전량예측" />
+<meta property="og:description" content="집합발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
+URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+API 명세 #    URL
+/vpp/share
+  Method:
+GET
+  URL Params
+   변수명 타입 필수 설명     token str O token   type str X 응답값의 형태(&lsquo;xml&rsquo; or &lsquo;json&rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜      Success Response:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/" /><meta property="article:section" content="docs" />
+
+
+
+<title>a. 집합발전소 발전량예측 | 60 Hertz Docs</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.b41cdcc69680b20b305adc2d69f998108e387359ce0e8d2d5f091e788a5bb27c.css" integrity="sha256-tBzcxpaAsgswWtwtafmYEI44c1nODo0tXwkeeIpbsnw=" crossorigin="anonymous"><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>60 Hertz Docs</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li class="book-section-flat" >
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/" class="">햇빛바람지도</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/" class="">1. 집합 구성</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/add_vpp/" class="">a. 집합 추가/삭제</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/rename_vpp/" class="">b. 집합 이름 변경</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/add_plant/" class="">c. 발전소 신규생성</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/add_plant_to_vpp/" class="">d. 집합에 발전소 추가</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/vpp/alarm/" class="">e. 알림</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/api/" class="">2. API</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/" class=" active">a. 집합발전소 발전량예측</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="http://docs.60hz.io/docs/map-60hz-io/api/predict/plant/" class="">b. 개별발전소 발전량예측</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>a. 집합발전소 발전량예측</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#url-준비">URL 준비</a></li>
+    <li><a href="#api-명세">API 명세</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#example">Example</a>
+      <ul>
+        <li><a href="#요청">요청</a></li>
+        <li><a href="#응답">응답</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="집합발전소-발전량예측">
+  집합발전소 발전량예측
+  <a class="anchor" href="#%ec%a7%91%ed%95%a9%eb%b0%9c%ec%a0%84%ec%86%8c-%eb%b0%9c%ec%a0%84%eb%9f%89%ec%98%88%ec%b8%a1">#</a>
+</h1>
+<hr>
+<p>집합발전소의 예측발전량 값을 API로 받을 수 있습니다.</p>
+<h2 id="url-준비">
+  URL 준비
+  <a class="anchor" href="#url-%ec%a4%80%eb%b9%84">#</a>
+</h2>
+<p><a href="/docs/map-60hz-io/vpp/alarm/">알림</a>에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.</p>
+<h2 id="api-명세">
+  API 명세
+  <a class="anchor" href="#api-%eb%aa%85%ec%84%b8">#</a>
+</h2>
+<ul>
+<li>
+<p><strong>URL</strong></p>
+<p>/vpp/share</p>
+</li>
+<li>
+<p><strong>Method:</strong></p>
+<p><code>GET</code></p>
+</li>
+<li>
+<p><strong>URL Params</strong></p>
+<table>
+<thead>
+<tr>
+<th>변수명</th>
+<th>타입</th>
+<th>필수</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>token</td>
+<td>str</td>
+<td>O</td>
+<td>token</td>
+</tr>
+<tr>
+<td>type</td>
+<td>str</td>
+<td>X</td>
+<td>응답값의 형태(&lsquo;xml&rsquo; or &lsquo;json&rsquo;). default는 xml</td>
+</tr>
+<tr>
+<td>dt</td>
+<td>int</td>
+<td>X</td>
+<td>YYYYMMDD의 숫자, default는 내일날짜</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><strong>Success Response:</strong></p>
+<ul>
+<li>
+<p><strong>Code:</strong> 200 <!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>출력값</p>
+<table>
+<thead>
+<tr>
+<th>출력명</th>
+<th>타입</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>str</td>
+<td>집합발전소 이름 or 발전소 이름</td>
+</tr>
+<tr>
+<td>unit</td>
+<td>str</td>
+<td>단위</td>
+</tr>
+<tr>
+<td>predict</td>
+<td>array</td>
+<td>예측발전량 어레이</td>
+</tr>
+<tr>
+<td>datetime</td>
+<td>str</td>
+<td>시간</td>
+</tr>
+<tr>
+<td>generation</td>
+<td>float</td>
+<td>예측발전량</td>
+</tr>
+<tr>
+<td>plants</td>
+<td>array</td>
+<td>발전소 어레이</td>
+</tr>
+<tr>
+<td>id</td>
+<td>int</td>
+<td>발전소 ID</td>
+</tr>
+<tr>
+<td>plant_name</td>
+<td>str</td>
+<td>발전소 이름</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Content:</strong></p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;root&gt;
+    &lt;name&gt;{집합발전소 이름}&lt;/name&gt;
+    &lt;unit&gt;kWh&lt;/unit&gt;
+    &lt;update_datetime&gt;2021-06-09 07:00:00+09:00&lt;/update_datetime&gt;
+    &lt;predict&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 00:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 01:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        ...
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 20:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;2.54&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 21:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 22:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 23:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+    &lt;/predict&gt;
+    &lt;plants&gt;
+        &lt;item&gt;
+            &lt;id&gt;{발전소 ID}&lt;/id&gt;
+            &lt;plant_name&gt;{발전소 이름}&lt;/plant_name&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;id&gt;{발전소 ID}&lt;/id&gt;
+            &lt;plant_name&gt;{발전소 이름}&lt;/plant_name&gt;
+        &lt;/item&gt;
+    &lt;/plants&gt;
+&lt;/root&gt;
+</code></pre></li>
+</ul>
+</li>
+<li>
+<p><strong>Error Response:</strong></p>
+<ul>
+<li>
+<p><strong>Code:</strong> 400 BAD REQUEST <!-- raw HTML omitted --></p>
+<p><strong>Content:</strong> <code>{ message : &quot;잘못된 토큰입니다.&quot; }</code></p>
+<p><strong>Content:</strong> <code>{ message : &quot;잘못된 요청입니다. (dt는 YYYYMMDD 포맷이여야 합니다.)&quot; }</code></p>
+<p><strong>Content:</strong> <code>{ message : &quot;잘못된 요청입니다. (dt는 현재날짜기준 이틀뒤까지 요청가능합니다.)&quot; }</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Sample Call:</strong></p>
+<h4 id="bash">
+  Bash
+  <a class="anchor" href="#bash">#</a>
+</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Bash" data-lang="Bash">$ curl https://<span style="color:#f92672">{</span>API_URL<span style="color:#f92672">}</span>/vpp/share?token<span style="color:#f92672">={</span>token<span style="color:#f92672">}</span>
+</code></pre></div><h4 id="python3">
+  Python3
+  <a class="anchor" href="#python3">#</a>
+</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Python" data-lang="Python"><span style="color:#f92672">&gt;&gt;&gt;</span> <span style="color:#f92672">import</span> requests
+<span style="color:#f92672">&gt;&gt;&gt;</span> URL <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;https://{API_URL}/vpp/share?token={token}&#34;</span>
+<span style="color:#f92672">&gt;&gt;&gt;</span> rst <span style="color:#f92672">=</span> requests<span style="color:#f92672">.</span>get(URL)
+<span style="color:#f92672">&gt;&gt;&gt;</span> rst<span style="color:#f92672">.</span>status_code
+<span style="color:#ae81ff">200</span>
+</code></pre></div></li>
+</ul>
+<hr>
+<h2 id="example">
+  Example
+  <a class="anchor" href="#example">#</a>
+</h2>
+<h3 id="요청">
+  요청
+  <a class="anchor" href="#%ec%9a%94%ec%b2%ad">#</a>
+</h3>
+<pre><code>/vpp/share?token={token}&amp;dt=20210610
+</code></pre>
+<h3 id="응답">
+  응답
+  <a class="anchor" href="#%ec%9d%91%eb%8b%b5">#</a>
+</h3>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
+&lt;root&gt;
+    &lt;name&gt;{집합발전소 이름}&lt;/name&gt;
+    &lt;unit&gt;kWh&lt;/unit&gt;
+    &lt;update_datetime&gt;2021-06-09 07:00:00+09:00&lt;/update_datetime&gt;
+    &lt;predict&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 00:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 01:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 02:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 03:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 04:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 05:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 06:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;2.9&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 07:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;10.28&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 08:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;23.09&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 09:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;36.57&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 10:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;46.12&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 11:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;55.9&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 12:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;66.1&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 13:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;74.03&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 14:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;95.49&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 15:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;95.45&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 16:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;62.36&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 17:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;38.33&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 18:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;21.93&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 19:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;9.97&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 20:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;2.54&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 21:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 22:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;datetime&gt;2021-06-10 23:00:00+09:00&lt;/datetime&gt;
+            &lt;generation&gt;0.0&lt;/generation&gt;
+        &lt;/item&gt;
+    &lt;/predict&gt;
+    &lt;plants&gt;
+        &lt;item&gt;
+            &lt;id&gt;{발전소 ID}&lt;/id&gt;
+            &lt;plant_name&gt;{발전소 이름}&lt;/plant_name&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+            &lt;id&gt;{발전소 ID}&lt;/id&gt;
+            &lt;plant_name&gt;{발전소 이름}&lt;/plant_name&gt;
+        &lt;/item&gt;
+    &lt;/plants&gt;
+&lt;/root&gt;
+</code></pre>
+<hr>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#url-준비">URL 준비</a></li>
+    <li><a href="#api-명세">API 명세</a>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+    <li><a href="#example">Example</a>
+      <ul>
+        <li><a href="#요청">요청</a></li>
+        <li><a href="#응답">응답</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -90,6 +90,38 @@
     </item>
     
     <item>
+      <title>a. 집합발전소 발전량예측</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/</guid>
+      <description>집합발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
+URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+API 명세 #    URL
+/vpp/share
+  Method:
+GET
+  URL Params
+   변수명 타입 필수 설명     token str O token   type str X 응답값의 형태(&amp;lsquo;xml&amp;rsquo; or &amp;lsquo;json&amp;rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜      Success Response:</description>
+    </item>
+    
+    <item>
+      <title>b. 개별발전소 발전량예측</title>
+      <link>http://docs.60hz.io/docs/map-60hz-io/api/predict/plant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/plant/</guid>
+      <description>개별발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
+URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+API 명세 #    URL
+/vpp/share
+  Method:
+GET
+  URL Params
+   변수명 타입 필수 설명     token str O token   type str X 응답값의 형태(&amp;lsquo;xml&amp;rsquo; or &amp;lsquo;json&amp;rsquo;). default는 xml   dt int X YYYYMMDD의 숫자, default는 내일날짜   plant int X 발전소 id      Success Response:</description>
+    </item>
+    
+    <item>
       <title>Token 생성</title>
       <link>http://docs.60hz.io/docs/map-60hz-io/api/predict/token/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -24,7 +24,9 @@
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/api/</loc>
   </url><url>
-    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/</loc>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/</loc>
+  </url><url>
+    <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/plant/</loc>
   </url><url>
     <loc>http://docs.60hz.io/docs/map-60hz-io/api/predict/token/</loc>
   </url><url>
