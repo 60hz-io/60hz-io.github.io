@@ -13,7 +13,7 @@
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/vpp/</guid>
       <description>집합발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
-URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+URL 준비 #  알림에서 xml 사용을 선택합니다. 해당 집합 발전소의 전용 API URL이 생성됩니다.
 API 명세 #    URL
 /vpp/share
   Method:
@@ -29,9 +29,9 @@ GET
       
       <guid>http://docs.60hz.io/docs/map-60hz-io/api/predict/plant/</guid>
       <description>개별발전소 발전량예측 #   집합발전소의 예측발전량 값을 API로 받을 수 있습니다.
-URL 준비 #  알림에서 xml 사용 설정을 누릅니다. 그러면 해당 집합 발전소의 전용 API URL이 생성됩니다.
+URL 준비 #  알림에서 xml 사용을 선택합니다. 해당 집합 발전소의 전용 API URL이 생성됩니다.
 API 명세 #    URL
-/vpp/share
+/vpp/share?plant={id}
   Method:
 GET
   URL Params
